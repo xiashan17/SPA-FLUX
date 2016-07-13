@@ -1,0 +1,21 @@
+{
+		"goupId": "1231231",
+		"chartList": [
+			{
+				"userid": "songchao",
+				"headPortrait": "images/me.jpg",
+				"content": "fawefr",
+				"timer":"2013,9,23"
+			},{
+				"userid": "2",
+				"headPortrait": "images/me.jpg",
+				"content": "fawefr",
+				"timer":"2013,9,23"
+			}, {
+				"userid": "3",
+				"headPortrait": "images/me.jpg",
+				"content": "fawefr",
+				"timer":"2013,9,23"
+			}
+		]
+	}

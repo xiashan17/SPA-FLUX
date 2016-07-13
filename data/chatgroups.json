@@ -1,0 +1,38 @@
+[
+	{
+		"goupId": "1231231",
+		"peopleList": [
+			{
+				"id": "1",
+				"headPortrait": "images/me.jpg",
+				"nickname": "fawefr"
+			}, {
+				"id": "2",
+				"headPortrait": "images/me.jpg",
+				"nickname": "fearfsa"
+			}, {
+				"id": "3",
+				"headPortrait": "images/me.jpg",
+				"nickname": "hrshb"
+			}
+		]
+	},
+	{
+		"goupId": "12312331",
+		"peopleList": [
+			{
+				"id": "1",
+				"headPortrait": "images/me.jpg",
+				"nickname": "fawefr"
+			}, {
+				"id": "2",
+				"headPortrait": "images/me.jpg",
+				"nickname": "fearfsa"
+			}, {
+				"id": "3",
+				"headPortrait": "images/me.jpg",
+				"nickname": "hrshb"
+			}
+		]
+	}
+]

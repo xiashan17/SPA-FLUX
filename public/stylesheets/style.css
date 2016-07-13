@@ -1,0 +1,174 @@
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+li{
+	list-style: none;
+}
+section{
+	height: 800px;
+}
+.clear{
+	clear:both;
+}
+.row{
+	margin-left: 0!important;
+	margin-right: 0!important;
+}
+.pad-right-15{
+	padding-right: 15px;
+}
+.pad-left-15{
+	padding-left: 15px!important;
+}
+/*big-left*/
+.big-left{
+	padding: 15px 0 15px!important;
+	background: #2e3238;
+	color: #fff;
+	font-family: microsoft yahei;
+}
+.big-right{
+	background: #eee;
+}
+.me,.me i{
+	height: 50px;
+	line-height: 50px;
+}
+.me i{
+	display: inline-block;
+	float: left;
+}
+.me i img{
+	width: 40px;
+	height: 40px;
+}
+.search{
+	position: relative;
+}
+.search i{
+	position: absolute;
+	left: 7%;
+	top: 11px;
+	z-index: 99;
+}
+.search input{
+    display: inline-block;
+    margin-bottom: 10px;
+    height: 35px;
+    color: #FFFFFF;
+    background: #000;
+    padding-left: 9%;
+    float: none;
+    border: none;
+}
+ul.catalog{
+	overflow: hidden;
+	height: 35px;
+	padding: 0;
+}
+ul.catalog li{
+    background: url(../images/mm.png) no-repeat center center;
+    height: 100%;
+    background-size: 50px;
+}
+.catalog span{
+    position: absolute;
+    right: 0;
+    top: 6px;
+    display: inline-block;
+    width: 1px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.59);
+}
+.family-list{
+	padding: 0;
+	height: 620px;
+	overflow-y: auto;
+}
+.family-list li{
+	height: 40px;
+}
+.family-list li img{
+	widows: 30px;
+	height: 30px;
+}
+
+/*big-right*/
+.big-right{
+	padding: 0!important;
+}
+.no-dialog{
+		display: none!important;
+    left: 46%;
+    margin-top: 35%;
+}
+.dialog-name{
+	margin: 0 auto;
+	height: 6%;
+	line-height: 270%;
+	text-align: center;
+	color: #2e3238;
+	font-family: microsoft yahei;
+	border-bottom: 1px solid #ddd;
+	float: none!important;
+}
+.p-record{
+    margin-right: 20px;
+    padding: 0 10px;
+    line-height: 1.4em;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    border-radius: 5px;
+}
+.dialog{
+	height: 94%;
+	overflow: hidden;
+}
+.dialog-record{
+	height: 65%;
+	padding-top: 20px;
+}
+.dialog-tool{
+	height: 5%;
+	border-top: 1px solid #ddd;
+	padding-left: 15px;
+}
+.dialog-tool i{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url(../images/mm.png);
+	background-size: 100%;
+	padding: 0 10px;;
+}
+.dialog-send{
+	position: relative;
+	height: 30%;
+}
+.dialog-send textarea{
+	position: absolute;
+	left: 2%;
+	top: 10px;
+	width: 96%;
+	height: 60%;
+	border: none;
+	background: #eee;
+	resize: none;
+}
+.dialog-send textarea:focus{
+	outline: none;
+}
+.button-send{
+	position: absolute;
+	bottom: 20px;
+	right: 30px;
+	width: 80px;
+}
