@@ -22,13 +22,14 @@ ReactDOM.render(
 				</div>
 				<div className = "row">
 					<ul className = "catalog col-md-12">
-						<li className = "col-md-4 pull-left">
-							<span></span>
+						<li className = "col-md-4 clipline">
+							<i className="icon-comment icon-green"></i>
 						</li>
-						<li className = "col-md-4 pull-left">
-							<span></span>
+						<li className = "col-md-4 clipline">
+							<i className="icon-file-alt"></i>
 						</li>
-						<li className = "col-md-4 pull-left">
+						<li className = "col-md-4">
+							<i className="icon-user"></i>
 						</li>
 					</ul>
 				</div>

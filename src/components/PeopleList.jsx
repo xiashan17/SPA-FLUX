@@ -6,7 +6,7 @@ var React = require('react'),
 var People = React.createClass({
   render: function() {
     return (
-        <li>
+        <li className="">
           <img src={this.props.headPortrait} alt=""/>
                     <span>{this.props.nickname}</span>
         </li>
@@ -23,17 +23,9 @@ componentDidMount: function() {
     setTimeout(this.loadCommentsFromServer, 1000);
 },
  loadCommentsFromServer: function() {
-    $.ajax({
-      url: "/PeopleList",
-      dataType: 'json',
-      cache: false,
-      success: function(data) {
-        this.setState({data: data});
-      }.bind(this),
-      error: function(xhr, status, err) {
-        console.error("/PeopleList", status, err.toString());
-      }.bind(this)
-    });
+    this.serverRequest = $.get("/PeopleList", function (data) {
+      this.setState({data: data});
+    }.bind(this));
   },
   changeEventHandler: function() {
     this.setState(Store.get());
@@ -55,7 +47,7 @@ componentDidMount: function() {
    }
     return (
       <div className="commentList">
-      <ul className = "family-list pad-left-15">
+      <ul className = "family-list">
         {commentNodes}
         </ul>
       </div>

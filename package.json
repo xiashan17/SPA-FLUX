@@ -26,9 +26,10 @@
   },
   "main": "./index.js",
   "scripts": {
-    "start": "webpack --progress --colors --watch -d",
+    "start": "webpack --progress --colors --watch",
+    "hotstart": "webpack-dev-server --inline --content-base .",
     "build": "webpack --progress --colors -p",
-    "server": "node bin/www && webpack --progress --colors --watch -d",
+    "server": "node bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

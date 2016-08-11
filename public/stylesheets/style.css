@@ -1,6 +1,7 @@
 body {
   padding: 0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  overflow-y:hidden;
 }
 
 a {
@@ -10,7 +11,7 @@ li{
 	list-style: none;
 }
 section{
-	height: 800px;
+	height: 750px;
 }
 .clear{
 	clear:both;
@@ -61,7 +62,7 @@ section{
     margin-bottom: 10px;
     height: 35px;
     color: #FFFFFF;
-    background: #000;
+    background: #26292e;
     padding-left: 9%;
     float: none;
     border: none;
@@ -70,11 +71,29 @@ ul.catalog{
 	overflow: hidden;
 	height: 35px;
 	padding: 0;
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -o-box;
+
 }
 ul.catalog li{
-    background: url(../images/mm.png) no-repeat center center;
+    box-flex:1.0;
+    -webkit-box-flex:1.0; 
     height: 100%;
     background-size: 50px;
+    height: 25px;
+}
+ul.catalog li.clipline{
+	border-right: solid 1px #292C33;
+}
+ul.catalog li i{
+    font-size: 25px;
+    -webkit-box-flex: 1;
+    display: block;
+    margin-left: 30%;
+    height: 100%;
+    line-height: 25px;
 }
 .catalog span{
     position: absolute;
@@ -89,15 +108,20 @@ ul.catalog li{
 	padding: 0;
 	height: 620px;
 	overflow-y: auto;
+	padding: 0 8px;
 }
 .family-list li{
-	height: 40px;
+	height: 56px;
+    border-top: solid 1px #292C33;
+    padding: 8px 0;
 }
 .family-list li img{
 	widows: 30px;
 	height: 30px;
 }
-
+.family-list span{
+	margin-left: 6px
+}
 /*big-right*/
 .big-right{
 	padding: 0!important;
@@ -143,11 +167,12 @@ ul.catalog li{
 }
 .dialog-tool i{
 	display: inline-block;
-	width: 40px;
-	height: 40px;
-	background: url(../images/mm.png);
-	background-size: 100%;
-	padding: 0 10px;;
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    padding: 0 10px;
+    font-size: 25px;
+    line-height: 40px;
 }
 .dialog-send{
 	position: relative;
@@ -172,3 +197,5 @@ ul.catalog li{
 	right: 30px;
 	width: 80px;
 }
+
+.icon-green{color:#3caf36; }

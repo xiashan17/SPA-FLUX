@@ -42,11 +42,6 @@
 			"nickname":"gbxdetgvdr"
 		},
 		{
-			"id":"9",
-			"headPortrait":"images/mm.png",
-			"nickname":"sgerfa"
-		},
-		{
 			"id":"10",
 			"headPortrait":"images/me.jpg",
 			"nickname":"gtr5yh5"
@@ -54,16 +49,6 @@
 		{
 			"id":"11",
 			"headPortrait":"images/me.jpg",
-			"nickname":"呵呵"
-		},
-		{
-			"id":"12",
-			"headPortrait":"images/me.jpg",
-			"nickname":"呵呵"
-		},
-		{
-			"id":"13",
-			"headPortrait":"images/mm.png",
 			"nickname":"呵呵"
 		}
 	]

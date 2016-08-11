@@ -23,17 +23,17 @@ var Dialog = React.createClass({
     return (
     	<section className="pull-right col-md-9 big-right">
 			<h4 className = "col-md-11 dialog-name">
-				文件传输助手
-				<span>(97)</span>
-				<i className="glyphicon glyphicon-chevron-down"></i>
+				<span className="chat-title"></span>
+				<span className="chat-number"></span>
+				<i className="glyphicon"></i>
 			</h4>
 			<i className="glyphicon glyphicon-remove-sign no-dialog"></i>
 			<div className="dialog">
 				<article className="dialog-record"></article>
 				<p className="dialog-tool">
-					<i className="tool-smile"></i>
-					<i className="tool-knife"></i>
-					<i className="tool-ile"></i>
+					<i className="icon-globe"></i>
+					<i className="icon-headphones"></i>
+					<i className="icon-folder-close-alt"></i>
 				</p>
 				<DialogSend/>
 			</div>
